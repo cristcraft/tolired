@@ -1,0 +1,60 @@
+:root{
+    --primary-color-orange: #F86E3E;
+    --primary-color-blue: #3EC8F8;
+    --primary-color-green: #6BF83E;
+    --primary-color-purple: #CB3EF8;
+}
+nav{
+    display: flex;
+    margin: 0;
+    margin-top: 0;
+    background-color: whitesmoke;
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+}
+
+nav .img{
+    width: 30%;
+}
+
+nav ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    padding: 20px;
+    transition: .3s ease-in-out;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav li:hover{
+    transition: .3s ease-in-out;
+    background-color: var(--primary-color-orange);
+    color: white;
+    text-decoration: underline;
+    height: max-content;
+    transform: scale(1.1);
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+}
+
+nav li:hover a{
+    color: white;
+}
+
+.active{
+    border-bottom: 2px solid var(--primary-color-blue);
+}
