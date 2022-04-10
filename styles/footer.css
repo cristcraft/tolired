@@ -1,0 +1,42 @@
+footer{
+    background-color: #175682;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    user-select: none;
+}
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.social{
+    
+}
+
+.icons, .numbers{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.social .icons a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+footer a:hover{
+    color: #6BF83E !important;
+}
